@@ -63,5 +63,3 @@ Connect on LinkedIn
 
 ---
 
-✅ Paste this in your `README.md` file in VS Code and save.  
-Let me know when you’re ready for a project banner or GitHub topics!
