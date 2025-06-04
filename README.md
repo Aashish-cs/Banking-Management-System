@@ -57,9 +57,11 @@ BankingSystem/
 │   └── transactions.txt
 ├── .gitignore
 └── README.md
-✍️ Author
-Developed with ❤️ by Ashish Mishra
-Connect on LinkedIn
 
----
+## ✍️ Author
+
+Developed with ❤️ by **Ashish Mishra**  
+📧 Email: aashish.mishra.cs@gmail.com  
+🔗 LinkedIn: [linkedin.com/in/ashish-mishra-3359a4331](https://www.linkedin.com/in/ashish-mishra-3359a4331)
+
 
