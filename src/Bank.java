@@ -104,4 +104,26 @@ public class Bank {
             System.out.println("Failed to save accounts: " + e.getMessage());
         }
     }
+
+    public void showTransactionHistory(String accountNumber) {
+    System.out.println("\n📜 Transaction History for Account: " + accountNumber);
+    boolean found = false;
+
+    try (BufferedReader reader = new BufferedReader(new FileReader("data/transactions.txt"))) {
+        String line;
+        while ((line = reader.readLine()) != null) {
+            if (line.contains(accountNumber)) {
+                System.out.println(line);
+                found = true;
+            }
+        }
+    } catch (IOException e) {
+        System.out.println("Unable to read transaction history.");
+    }
+
+    if (!found) {
+        System.out.println("No transactions found for this account.");
+    }
+}
+
 }

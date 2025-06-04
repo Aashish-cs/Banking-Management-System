@@ -23,6 +23,8 @@ public class Main {
                 System.out.println("4. Check Balance");
                 System.out.println("5. Show All Accounts");
                 System.out.println("6. Exit");
+                System.out.println("7. View Transaction History");
+
                 System.out.print("Enter choice: ");
                 option = reader.readLine();
 
@@ -74,6 +76,13 @@ public class Main {
                     case "6":
                         System.out.println("Thank you for using Ashish Bank. Goodbye!");
                         return;
+
+                    case "7":
+                        System.out.print("Enter Account Number: ");
+                        String txAcc = reader.readLine();
+                        bank.showTransactionHistory(txAcc);
+                        break;
+
 
                     default:
                         System.out.println("Invalid option. Please try again.");
