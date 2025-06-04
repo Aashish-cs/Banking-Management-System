@@ -7,13 +7,15 @@ This project allows users to create and manage bank accounts, perform transactio
 
 ## ✅ Features
 
-- Create new bank accounts
-- Deposit money
-- Withdraw money
-- Check account balance
-- View all existing accounts
-- Logs all transactions with date and time
-- File-based data persistence
+- Create new bank accounts  
+- Deposit money  
+- Withdraw money  
+- Check account balance  
+- View all existing accounts  
+- View transaction history (per account)  
+- Logs all transactions with date and time  
+- File-based data persistence using `BufferedReader` & `BufferedWriter`  
+
 
 ---
 
@@ -57,11 +59,11 @@ BankingSystem/
 │   └── transactions.txt
 ├── .gitignore
 └── README.md
-✍️ Author
-Developed with ❤️ by Ashish Mishra
-Connect on LinkedIn
 
----
+## ✍️ Author
 
-✅ Paste this in your `README.md` file in VS Code and save.  
-Let me know when you’re ready for a project banner or GitHub topics!
+Developed with ❤️ by **Ashish Mishra**  
+📧 Email: aashish.mishra.cs@gmail.com  
+🔗 LinkedIn: [linkedin.com/in/ashish-mishra-3359a4331](https://www.linkedin.com/in/ashish-mishra-3359a4331)
+
+
